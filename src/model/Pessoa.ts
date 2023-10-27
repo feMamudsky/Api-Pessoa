@@ -128,4 +128,10 @@ export class Pessoa {
     /**
      * CRUD
      */
+
+    cadastroPessoa(baninha: Pessoa){
+        //persistindo os dados
+        console.log(`${baninha.nome} cadastrado(a) com sucesso`);
+    }
 }
+
