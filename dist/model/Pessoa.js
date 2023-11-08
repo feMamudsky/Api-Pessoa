@@ -108,7 +108,14 @@ class Pessoa {
     }
     comerPratos(_pratos) {
         //lógica de negócio
-        console.log(`${this.nome} estpa comendo ${_pratos}`);
+        console.log(`${this.nome} está comendo ${_pratos}`);
+    }
+    /**
+     * CRUD
+     */
+    cadastroPessoa(baninha) {
+        //persistindo os dados
+        console.log(`${baninha.nome} cadastrado(a) com sucesso`);
     }
 }
 exports.Pessoa = Pessoa;
